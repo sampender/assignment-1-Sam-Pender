@@ -1,19 +1,17 @@
 def add_three(a, b, c):
-    return 6
+    return a + b + c
 
 def subtract_three(a, b, c):
-    return 5
+    return a - b - c
 
 def multiply_three(a, b, c):
-    return 16
+    return a * b * c
 
 def divide_three(a, b, c):
-    return 4
+    return a / b / c
 
 def square(a):
-    #return a**2
-    return 81
+    return a ** 2
 
 def cube(a):
-    #return a**3
-    return 125
+    return a ** 3
